@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#fieldset{
+    border: 1;
+}
+body{
+    background-image:url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(4, 0, 255);
+    font-size: 1em;
+    color: rgb(254, 254, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 05%;
+    margin-bottom: 20%;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+}
+.campo label{
+    margin-bottom: 1%;
+    color:rgb(2, 2, 2);
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    background-color: rgb(0, 255, 60);
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 0.6em;
+    box-shadow: 2px 2px 2px rgba(8, 166, 87, 0.952);
+    text-shadow: 1px 1px 1px rgba(41, 246, 54, 0.5);
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    margin-right:-50%;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    background: rgba(38, 160, 252, 0.459);
+    backdrop-filter: blur(5xp);
+    -webkit-backdrop-filter: blur(200xp);
+    background-position: center;
+}
